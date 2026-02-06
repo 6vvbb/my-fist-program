@@ -1,0 +1,12 @@
+set_1={1,2,3,4,5}
+set_2={1,2,3,6,7}
+print(set_1)
+print(set_2)
+set_union=set_1|set_2
+print(set_union)
+set_intersection=set_1&set_2
+print(set_intersection)
+set_difference=set_1-set_2
+print(set_difference)
+set_symmentricdiff=set_1^set_2
+print(set_symmentricdiff)
